@@ -35,3 +35,14 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %files
 %{_var}/www/drupal/modules/%{modname}
 %doc API.txt CHANGELOG.txt
+
+
+%changelog
+* Thu Aug 09 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.1-1
++ Revision: 813180
+- update to 7.x.1.1
+
+* Fri May 11 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.0-1
++ Revision: 798246
+- imported package drupal-ctools
+
